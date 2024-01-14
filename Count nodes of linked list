@@ -1,0 +1,9 @@
+
+int length(Node *head)
+{
+    int i=0;
+    Node *p;
+	//Write your code here
+    for(i=0,p=head;p!=NULL;i++,p=p->next);
+    return i;
+}
