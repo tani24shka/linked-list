@@ -1,0 +1,9 @@
+int searchInLinkedList(Node<int> *head, int k) {
+    // Write your code here.
+    for(Node<int> *p=head;p!=NULL;p=p->next)
+    {
+        if(p->data==k)
+        return 1;
+    }
+    return 0;
+}
